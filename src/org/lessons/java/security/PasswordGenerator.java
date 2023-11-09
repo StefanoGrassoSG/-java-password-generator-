@@ -31,5 +31,7 @@ public class PasswordGenerator {
 		
 		int sumAge = Integer.valueOf(day2 + month2 + year2);
 		System.out.println("la tua password è:" +name+"-"+lastName+"-"+favouriteColor+"-"+sumAge);
+		
+		in.close();
 	}	
 }
